@@ -3,8 +3,8 @@ print("Hello Human my name is MileKill and I will convert "
 
 while True:
     try:
-        kilometer = float(input("Enter the kilometers: "))
-        miles = 1 / 1.6093440
+        kilometer = float(input("Please Human enter the kilometers as number: "))
+        miles = 1 / 1.609344
         print(kilometer, "km", "are ", kilometer * miles, "miles")
         break
     except:
